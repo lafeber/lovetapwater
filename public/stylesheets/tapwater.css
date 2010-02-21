@@ -1,9 +1,12 @@
 body, p, ol, ul, td {
   font-family: georgia, verdana, arial, helvetica, sans-serif;
-  font-size:   13px;
-  line-height: 18px;
+  font-size:   17px;
+  line-height: 23px;
   color: #333; margin:0; padding:0;
 }
+
+#love {color:#ff0090;}
+#tapwater {color:#64b0f1;}
 
 #main {
   margin: 0px auto;

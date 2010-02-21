@@ -1,10 +1,10 @@
-<h1>Love tapwater</h1>
+<h1><span id="love">love</span> <span id="tapwater">tapwater</span></h1>
 
 <% @posts.each do |post| %>
   <div class="post">
     <h2><%=h post.title %><%= link_to "&nbsp;&nbsp;&nbsp;", edit_post_path(post) %></h2>
     <div><%= post.content %></div>
-    <div class="time"><%=h post.published_at.strftime("%d %m %Y") %></div>
+    <div class="time">posted on <%=h post.published_at.strftime("%d %B %Y") %></div>
   </div>
 <% end %>
 
