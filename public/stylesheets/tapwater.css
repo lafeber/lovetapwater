@@ -38,8 +38,6 @@ h1 {text-align:center;}
 
 a { color: #ff0090; text-decoration:none; cursor:default;}
 a.w { color: #fff;}
-a:visited { color: #fff; }
-a:hover {}
 
 .fieldWithErrors {
   padding: 2px;
