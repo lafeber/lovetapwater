@@ -36,8 +36,8 @@ pre {
 
 h1 {text-align:center;}
 
-a { color: #ff0090; text-decoration:none; cursor:default;}
-a.w { color: #fff;}
+a { color: #ff0090; text-decoration:none;}
+a.w { color: #fff; cursor:default;}
 
 .fieldWithErrors {
   padding: 2px;
