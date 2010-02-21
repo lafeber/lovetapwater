@@ -2,7 +2,7 @@
 
 <% @posts.each do |post| %>
   <div class="post">
-    <h2><%=h post.title %><%= link_to "&nbsp;&nbsp;&nbsp;", edit_post_path(post) %></h2>
+    <h2><%=h post.title %><%= link_to "&nbsp;&nbsp;&nbsp;", edit_post_path(post), :class => 'w' %></h2>
     <div><%= post.content %></div>
     <div class="time">posted on <%=h post.published_at.strftime("%d %B %Y") %></div>
   </div>
@@ -10,4 +10,4 @@
 
 <br />
 
-<%= link_to 'New post', new_post_path %>
+<%= link_to 'New post', new_post_path, :class => 'w' %>

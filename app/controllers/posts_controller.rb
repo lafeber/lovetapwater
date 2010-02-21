@@ -22,7 +22,7 @@ class PostsController < ApplicationController
 
     if @post.save
       flash[:notice] = 'Post was successfully created.'
-      redirect_to(@post)
+      redirect_to(root_path)
     else
       render :action => "new"
     end
@@ -33,7 +33,7 @@ class PostsController < ApplicationController
 
     if @post.update_attributes(params[:post])
       flash[:notice] = 'Post was successfully updated.'
-      redirect_to(@post)
+      redirect_to(root_path)
     else
       render :action => "edit"
     end
